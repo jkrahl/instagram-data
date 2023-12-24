@@ -7,13 +7,13 @@ Instagram Data is a wrapper for Instagram's GDPR data export. It provides a conv
 To install the package, you can use npm or yarn:
 
 ```sh
-npm install instagram-data
+$ npm install instagram-data
 ```
 
 or
 
 ```sh
-yarn add instagram-data
+$ yarn add instagram-data
 ```
 
 ## Usage
@@ -54,14 +54,6 @@ npm run build
 ```
 
 This will compile the TypeScript code to JavaScript and output it to the `dist` directory.
-
-## Testing
-
-The package uses Jest for testing. You can run the tests with the following command:
-
-```sh
-npm run test
-```
 
 ## License
 
