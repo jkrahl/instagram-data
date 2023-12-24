@@ -1,11 +1,11 @@
 import JSZip, { JSZipObject } from 'jszip';
 
-interface Relationship {
+export interface Relationship {
     username: string;
     timestamp: Date;
 }
 
-class InstagramData {
+export default class InstagramData {
     followers: Relationship[] = [];
     following: Relationship[] = [];
 
@@ -71,5 +71,3 @@ class InstagramData {
         });
     };
 }
-
-export default InstagramData;
